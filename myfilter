@@ -1,0 +1,191 @@
+# Maps ------------------------------------------
+Show
+    Class Maps
+    SetFontSize 35
+    DropLevel < 73
+    SetBackgroundColor 32 32 32
+
+Show
+    Class Maps
+    SetFontSize 40
+    DropLevel < 78
+    SetBackgroundColor 128 96 32
+
+Show
+    Class Maps
+    SetFontSize 45
+    DropLevel >= 78
+    SetBackgroundColor 192 32 32
+
+Show 
+    Class Map Fragments
+    SetBackgroundColor 48 0 0
+
+# jewel -------------------------------------------------------
+
+Show
+    Class Jewel
+    SetFontSize 50
+    SetBorderColor 128 128 0
+
+
+# Equipments ----------------------------------------
+Show 
+    Rarity Unique
+    DropLevel < 52
+
+Show 
+    Rarity Unique
+    SetFontSize 40
+
+#Show
+#    Class Ring
+#    BaseType Diamond
+#    Rarity Rare
+#    SetFontSize 45
+#    SetBackgroundColor 128 128 0
+
+Show
+    Class Ring Amu Belt
+    Rarity Rare
+    SetFontSize 45
+    SetBackgroundColor 128 128 0
+
+Show
+    BaseType "Gavel" "Rock Breaker"
+    Rarity Normal
+    #Quality >= 10
+    SetBorderColor 128 128 0
+    SetFontSize 35
+
+Show
+    BaseType "Sorcerer Boots" "Sorcerer Gloves"
+    ItemLevel >= 82
+    SetBackgroundColor 64 64 32
+    SetBorderColor 0 0 255
+    SetFontSize 40
+
+Show
+    Class Claw
+    Rarity Rare
+    SetBackgroundColor 32 32 64
+    SetBorderColor 0 0 255
+    SetFontSize 32
+
+# Talisman -----------------------------------------
+Show
+    Class Amu
+    BaseType "Talisman"
+
+# Gem ----------------------------------------------
+Show
+    Class Gem
+    Quality >= 15
+    SetBorderColor 128 164 255
+    SetFontSize 45
+
+Show
+    Class Gem
+    Quality > 0
+    SetBorderColor 128 128 255
+    SetFontSize 35
+
+Show
+    Class Gem
+    SetBorderColor 128 128 255
+
+# Sockets, Links -----------------------------------------
+
+
+Show
+    LinkedSockets = 5
+    SetBackgroundColor 64 0 0
+    SetFontSize 40
+
+Show
+    LinkedSockets = 6
+    SetBackgroundColor 255 0 0
+    SetFontSize 45
+
+Show
+    Sockets 6
+    SetBorderColor 128 128 128
+    SetFontSize 45
+    PlayAlertSound 7
+
+Show
+    SocketGroup RGB
+    SetBorderColor 96 32 32
+    SetBackgroundColor 0 64 0
+    SetFontSize 45
+    Width 1
+    Height 3
+
+Show
+    SocketGroup RGB
+    SetBorderColor 96 32 32
+    SetBackgroundColor 0 64 0
+    SetFontSize 40
+    Width 2
+    Height 2
+
+Show
+    SocketGroup RGB
+    SetBorderColor 96 32 32
+    SetBackgroundColor 0 64 0
+    SetFontSize 35
+    Width 2
+    Height >= 3
+
+# flasks ----------------------------------------------------
+
+Show
+    Class Flask
+    Quality >= 15
+    SetBackgroundColor 0 64 0
+
+Show
+    Class Utility
+    #Quality >= 15
+    SetBackgroundColor 0 128 0
+
+
+# Currency
+
+Show
+    Class Currency
+    BaseType Eternal Exalted Chaos Divine Kalandra
+    SetFontSize 45
+    SetBackgroundColor 128 64 16
+    SetBorderColor 255 0 0
+    PlayAlertSound 5
+
+Show
+    Class Currency
+    BaseType Vaal Chisel Alc Jeweller Fus Reg Gem Glass Chance Chromatic Regal Blessed
+    SetFontSize 45
+    SetBackgroundColor 64 32 0
+    SetBorderColor 64 0 0
+    PlayAlertSound 1
+
+Show
+    Class Currency
+    BaseType Scroll
+    SetFontSize 40
+    SetBackgroundColor 0 0 0
+
+Show
+    Class Currency
+    SetFontSize 45
+    SetBorderColor 128 128 128
+
+Show
+    Class Divination Card
+
+# any other rare -----------------------------------
+Show
+    Rarity Rare
+
+# others
+
+Hide
